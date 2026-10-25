@@ -1,0 +1,62 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Bungee",
+        "source": "ofl/bungee/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Patrick Hand SC",
+        "source": "ofl/patrickhandsc/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Silkscreen",
+        "source": "ofl/silkscreen/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 10,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/6ac340d8e40075b7.css",
+        "sha256": "9bb302fc51572271666e5c5b36f80f8e54e8ba65ca3e302ce52d43568b623098",
+        "url": "https://fonts.googleapis.com/css2?family=Bungee&family=Patrick+Hand+SC&family=Silkscreen:wght@400;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 105096,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "miguelrsant/gira",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/6ac340d8e40075b7.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/20bc9fb93b02c82f0901.woff2",
+    ".packaging/google-fonts/files/3aac0b24b00d44ca9a26.woff2",
+    ".packaging/google-fonts/files/3f945ebcf6a592839eb4.woff2",
+    ".packaging/google-fonts/files/441286b9f69d96c4c4da.woff2",
+    ".packaging/google-fonts/files/6b1b05651f0b87a16cbf.woff2",
+    ".packaging/google-fonts/files/82b90c8b58c1397a9133.woff2",
+    ".packaging/google-fonts/files/9e747e710bba6f68d921.woff2",
+    ".packaging/google-fonts/files/a95f3217a41a3742a0e1.woff2",
+    ".packaging/google-fonts/files/cfe5a2122564c02bfb46.woff2",
+    ".packaging/google-fonts/files/e3f66f01dd8cad163c34.woff2",
+    ".packaging/google-fonts/licenses/Bungee-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Patrick-Hand-SC-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Silkscreen-OFL-1.1.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "ccdb12cc0573aa8853a00f600ce68a4a71648396"
+}
